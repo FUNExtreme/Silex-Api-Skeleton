@@ -4,14 +4,10 @@
 $environment = 'dev';
 
 // Config
-if($environment === 'dev')
-{
+if($environment === 'prod')
 	require __DIR__ . DIRECTORY_SEPARATOR . 'config.php';
-}
-else if($environment === 'prod')
-{
-	require __DIR__ . DIRECTORY_SEPARATOR . 'config_debug.php';
-}
+else
+	require __DIR__ . DIRECTORY_SEPARATOR . 'config_' . $environment . '.php';
 
 // Bootstrap
 require __DIR__ . DIRECTORY_SEPARATOR . 'bootstrap.php';
