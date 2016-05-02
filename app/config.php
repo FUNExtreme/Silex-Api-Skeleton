@@ -12,3 +12,8 @@ $config['db.dbname'] = 'test';
 $config['db.user'] = '';
 $config['db.password'] = '';
 $config['db.host'] = '';
+
+// Repositories
+$config['repositories'] = array(
+	'db.examples' => 'skeleton\\Repositories\\ExampleRepository'
+);
