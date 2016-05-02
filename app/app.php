@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Request;
 $environment = 'dev';
 
 // == Set Defaults
-date_default_timezone_set('Europe/Brussel');
+date_default_timezone_set('Europe/Brussels');
 
 // == Config
 if($environment === 'prod')
