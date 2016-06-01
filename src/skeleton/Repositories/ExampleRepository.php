@@ -1,6 +1,6 @@
 <?php
 
-namespace skeleton\Repository;
+namespace skeleton\Repositories;
 
 class ExampleRepository extends BaseRepository 
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace skeleton\Repository;
+namespace skeleton\Reposities;
 
 abstract class BaseRepository extends \Knp\Repository
 {
